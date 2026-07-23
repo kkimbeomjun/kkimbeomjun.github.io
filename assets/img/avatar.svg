@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 배경 원 -->
+  <circle cx="100" cy="100" r="100" fill="#FF8C00"/>
+
+  <!-- 귀 -->
+  <ellipse cx="45" cy="48" rx="22" ry="26" fill="#FF8C00"/>
+  <ellipse cx="155" cy="48" rx="22" ry="26" fill="#FF8C00"/>
+  <!-- 귀 안쪽 -->
+  <ellipse cx="45" cy="52" rx="12" ry="15" fill="#FFB347"/>
+  <ellipse cx="155" cy="52" rx="12" ry="15" fill="#FFB347"/>
+  <!-- 귀 줄무늬 -->
+  <ellipse cx="45" cy="52" rx="5" ry="9" fill="#CC5500" opacity="0.5"/>
+  <ellipse cx="155" cy="52" rx="5" ry="9" fill="#CC5500" opacity="0.5"/>
+
+  <!-- 얼굴 -->
+  <circle cx="100" cy="108" r="78" fill="#FFA500"/>
+
+  <!-- 이마 줄무늬 -->
+  <path d="M100 35 Q96 52 100 60 Q104 52 100 35" fill="#8B3A00" opacity="0.7"/>
+  <path d="M78 40 Q72 56 76 64 Q82 54 80 43" fill="#8B3A00" opacity="0.5"/>
+  <path d="M122 40 Q128 56 124 64 Q118 54 120 43" fill="#8B3A00" opacity="0.5"/>
+
+  <!-- 볼 흰색 -->
+  <ellipse cx="68" cy="128" rx="28" ry="22" fill="#FFF5E0"/>
+  <ellipse cx="132" cy="128" rx="28" ry="22" fill="#FFF5E0"/>
+
+  <!-- 눈 흰자 -->
+  <ellipse cx="76" cy="100" rx="18" ry="20" fill="white"/>
+  <ellipse cx="124" cy="100" rx="18" ry="20" fill="white"/>
+  <!-- 눈동자 -->
+  <ellipse cx="76" cy="102" rx="11" ry="13" fill="#3B2000"/>
+  <ellipse cx="124" cy="102" rx="11" ry="13" fill="#3B2000"/>
+  <!-- 눈 하이라이트 -->
+  <circle cx="80" cy="97" r="4" fill="white"/>
+  <circle cx="128" cy="97" r="4" fill="white"/>
+
+  <!-- 코 -->
+  <ellipse cx="100" cy="122" rx="9" ry="7" fill="#FF6B8A"/>
+
+  <!-- 입 -->
+  <path d="M100 129 Q88 142 82 138" stroke="#8B3A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M100 129 Q112 142 118 138" stroke="#8B3A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 수염 점 -->
+  <circle cx="62" cy="124" r="3" fill="#CC6600" opacity="0.6"/>
+  <circle cx="72" cy="130" r="3" fill="#CC6600" opacity="0.6"/>
+  <circle cx="62" cy="136" r="3" fill="#CC6600" opacity="0.6"/>
+  <circle cx="138" cy="124" r="3" fill="#CC6600" opacity="0.6"/>
+  <circle cx="128" cy="130" r="3" fill="#CC6600" opacity="0.6"/>
+  <circle cx="138" cy="136" r="3" fill="#CC6600" opacity="0.6"/>
+
+  <!-- 볼 줄무늬 -->
+  <path d="M44 108 Q54 114 50 122" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M40 120 Q52 122 50 132" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M156 108 Q146 114 150 122" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M160 120 Q148 122 150 132" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>

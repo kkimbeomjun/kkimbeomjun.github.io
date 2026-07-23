@@ -1,8 +1,45 @@
 ---
-# the default layout is 'page'
+layout: page
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); border-radius: 16px; padding: 60px 40px; text-align: center; margin-bottom: 40px; color: white;">
+  <h1 style="font-size: 2.5em; margin-bottom: 10px; color: white;">범기 블로그</h1>
+  <p style="font-size: 1.2em; opacity: 0.85; margin: 0;">세상이 궁금해서 만든 공간</p>
+</div>
+
+## 이 블로그는요
+
+솔직히 말하면 별 거 없습니다.
+
+그냥 세상이 궁금했습니다. 이것저것 찾아보다 보면 "이거 나만 모르고 있었나?" 싶은 것들이 너무 많더라고요. 그래서 만들었습니다. 내가 궁금한 거, 내가 알게 된 거, 그냥 다 올리는 공간입니다.
+
+주제 같은 거 없습니다. 오늘은 실업급여 신청 방법을 올리고, 내일은 축구 이야기를 올리고, 모레는 밥 먹다가 생각난 것도 올릴 겁니다. 그냥 그런 블로그입니다.
+
+---
+
+## 뭘 올리냐면
+
+- **생활 정보** — 알아두면 돈이 되는 것들, 정부지원금, 세금, 보험
+- **이슈** — 요즘 세상 돌아가는 것들
+- **스포츠** — 축구 좋아합니다
+- **일상** — 가끔씩요. 가끔
+
+딱히 전문가는 아닙니다. 그냥 저처럼 평범한 사람이 찾아보고 정리한 것들입니다.틀린 게 있으면 알려주세요.
+
+---
+
+## 왜 만들었냐면
+
+검색하다 보면 광고 투성이에 정작 원하는 정보는 없는 경우가 너무 많았습니다. 그래서 그냥 내가 직접 찾아보고 정리해서 올리는 공간이 있으면 좋겠다 싶었습니다.
+
+대단한 이유는 없습니다. 그냥 궁금했고, 만들고 싶었고, 만들었습니다.
+
+---
+
+## 마지막으로
+
+궁금한 분들은 따라와 주세요. 자주는 아니더라도 꾸준히는 올릴 생각입니다. 일상도 가끔 올리겠습니다. 재미있는 거 발견하면 공유할게요.
+
+그냥 같이 구경하는 블로그입니다. 어서 오세요.

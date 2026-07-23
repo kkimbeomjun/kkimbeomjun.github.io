@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://beomgi.com"
 
 github:
-  username: kkimbeomjun
+  username:
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username:
 
 social:
   name: 범기

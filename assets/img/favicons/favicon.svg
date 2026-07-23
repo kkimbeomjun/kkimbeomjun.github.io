@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 배경 원 -->
+  <circle cx="50" cy="50" r="48" fill="#FF8C00"/>
+
+  <!-- 귀 -->
+  <polygon points="18,22 30,10 38,30" fill="#FF8C00"/>
+  <polygon points="62,30 70,10 82,22" fill="#FF8C00"/>
+  <polygon points="22,22 30,14 36,28" fill="#FFB347"/>
+  <polygon points="64,28 70,14 78,22" fill="#FFB347"/>
+
+  <!-- 이마 줄무늬 -->
+  <ellipse cx="50" cy="28" rx="4" ry="8" fill="#1a1a1a" opacity="0.7"/>
+  <ellipse cx="34" cy="32" rx="3" ry="6" fill="#1a1a1a" opacity="0.6" transform="rotate(-20 34 32)"/>
+  <ellipse cx="66" cy="32" rx="3" ry="6" fill="#1a1a1a" opacity="0.6" transform="rotate(20 66 32)"/>
+
+  <!-- 얼굴 -->
+  <ellipse cx="50" cy="58" rx="30" ry="26" fill="#FFB347"/>
+
+  <!-- 눈 -->
+  <ellipse cx="37" cy="50" rx="7" ry="8" fill="white"/>
+  <ellipse cx="63" cy="50" rx="7" ry="8" fill="white"/>
+  <circle cx="38" cy="51" r="4" fill="#1a1a1a"/>
+  <circle cx="64" cy="51" r="4" fill="#1a1a1a"/>
+  <circle cx="39" cy="49" r="1.5" fill="white"/>
+  <circle cx="65" cy="49" r="1.5" fill="white"/>
+
+  <!-- 코 -->
+  <ellipse cx="50" cy="62" rx="5" ry="3.5" fill="#cc4400"/>
+
+  <!-- 입 -->
+  <path d="M 45 66 Q 50 71 55 66" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+  <line x1="50" y1="65" x2="50" y2="69" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- 수염 -->
+  <line x1="20" y1="63" x2="43" y2="65" stroke="#1a1a1a" stroke-width="1.2" opacity="0.6"/>
+  <line x1="20" y1="68" x2="43" y2="67" stroke="#1a1a1a" stroke-width="1.2" opacity="0.6"/>
+  <line x1="57" y1="65" x2="80" y2="63" stroke="#1a1a1a" stroke-width="1.2" opacity="0.6"/>
+  <line x1="57" y1="67" x2="80" y2="68" stroke="#1a1a1a" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- 볼 줄무늬 -->
+  <ellipse cx="27" cy="58" rx="5" ry="3" fill="#cc4400" opacity="0.4" transform="rotate(-15 27 58)"/>
+  <ellipse cx="73" cy="58" rx="5" ry="3" fill="#cc4400" opacity="0.4" transform="rotate(15 73 58)"/>
+</svg>

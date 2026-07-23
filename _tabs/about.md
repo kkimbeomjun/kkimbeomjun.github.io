@@ -4,9 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); border-radius: 16px; padding: 60px 40px; text-align: center; margin-bottom: 40px; color: white;">
-  <h1 style="font-size: 2.5em; margin-bottom: 10px; color: white;">범기 블로그</h1>
-  <p style="font-size: 1.2em; opacity: 0.85; margin: 0;">세상이 궁금해서 만든 공간</p>
+<div style="background-image: url('/assets/img/20260723_113400919.jpg'); background-size: cover; background-position: center; border-radius: 16px; padding: 60px 40px; text-align: center; margin-bottom: 40px; color: white;">
+  <div style="background: rgba(0,0,0,0.45); border-radius: 12px; padding: 30px;">
+    <h1 style="font-size: 2.5em; margin-bottom: 10px; color: white;">범기 블로그</h1>
+    <p style="font-size: 1.2em; opacity: 0.9; margin: 0;">세상이 궁금해서 만든 공간</p>
+  </div>
 </div>
 
 ## 이 블로그는요

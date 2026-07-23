@@ -35,10 +35,8 @@ social:
   name: 범기
   email: ""
   fediverse_handle:
-  links: []
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+  links:
+    - https://beomgi.com
 
 # Site Verification Settings
 webmaster_verifications:

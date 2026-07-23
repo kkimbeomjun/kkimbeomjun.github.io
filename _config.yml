@@ -33,10 +33,9 @@ twitter:
 
 social:
   name: 범기
-  email: bjkim@nkia.co.kr
+  email: ""
   fediverse_handle:
-  links:
-    - https://github.com/kkimbeomjun
+  links: []
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

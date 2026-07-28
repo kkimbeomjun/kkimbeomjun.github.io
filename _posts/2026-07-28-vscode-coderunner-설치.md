@@ -5,6 +5,8 @@ categories: [공부, 개발환경]
 tags: ["CodeRunner", "VSCode", "C언어", "코드실행", "정보처리기사"]
 description: "VS Code에서 Code Runner 확장 프로그램을 설치하면 터미널 명령어 없이 버튼 하나로 C언어 코드를 바로 실행할 수 있어요."
 series: "정보처리기사 공부일지"
+image:
+  path: /assets/img/c/code_runner.png
 ---
 
 C언어 환경 설정까지 끝났다면 이제 코드를 편하게 실행할 수 있는 **Code Runner** 를 설치해봐요. 터미널에서 `gcc` 명령어 매번 치지 않아도 버튼 하나로 바로 실행돼요.
@@ -16,9 +18,13 @@ C언어 환경 설정까지 끝났다면 이제 코드를 편하게 실행할 �
 3. 검색창에 **Code Runner** 입력
 4. **Code Runner** (작성자: Jun Han) 선택 후 **Install** 클릭
 
+![Code Runner 검색 화면](/assets/img/c/code_runner.png)
+
 ## 실행 방법
 
 설치 후 C언어 파일(`.c`)을 열고 오른쪽 상단의 **▶ 버튼** 클릭하거나 `Ctrl + Alt + N` 단축키를 누르면 바로 실행돼요.
+
+![실행 버튼 위치](/assets/img/c/hellow_cpolay버튼.png)
 
 실행 결과는 하단 **OUTPUT** 탭에서 확인할 수 있어요.
 

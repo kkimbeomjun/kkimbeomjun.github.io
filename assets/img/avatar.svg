@@ -1,72 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D97757"/>
+      <stop offset="100%" style="stop-color:#C4633F"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+
   <!-- 배경 원 -->
-  <circle cx="100" cy="100" r="100" fill="#FF8C00"/>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
 
-  <!-- 귀 -->
-  <ellipse cx="45" cy="62" rx="22" ry="26" fill="#FF8C00"/>
-  <ellipse cx="155" cy="62" rx="22" ry="26" fill="#FF8C00"/>
-  <ellipse cx="45" cy="66" rx="12" ry="15" fill="#FFB347"/>
-  <ellipse cx="155" cy="66" rx="12" ry="15" fill="#FFB347"/>
-
-  <!-- 얼굴 -->
-  <circle cx="100" cy="118" r="75" fill="#FFA500"/>
-
-  <!-- 볼 흰색 -->
-  <ellipse cx="68" cy="138" rx="26" ry="20" fill="#FFF5E0"/>
-  <ellipse cx="132" cy="138" rx="26" ry="20" fill="#FFF5E0"/>
-
-  <!-- 볼 줄무늬 -->
-  <path d="M44 118 Q54 124 50 132" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M40 130 Q52 132 50 142" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M156 118 Q146 124 150 132" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M160 130 Q148 132 150 142" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
-
-  <!-- 눈 흰자 -->
-  <ellipse cx="76" cy="112" rx="18" ry="18" fill="white"/>
-  <ellipse cx="124" cy="112" rx="18" ry="18" fill="white"/>
-  <!-- 눈동자 -->
-  <ellipse cx="76" cy="114" rx="11" ry="12" fill="#3B2000"/>
-  <ellipse cx="124" cy="114" rx="11" ry="12" fill="#3B2000"/>
-  <!-- 눈 하이라이트 -->
-  <circle cx="80" cy="109" r="4" fill="white"/>
-  <circle cx="128" cy="109" r="4" fill="white"/>
-
-  <!-- 코 -->
-  <ellipse cx="100" cy="133" rx="9" ry="7" fill="#FF6B8A"/>
-
-  <!-- 입 -->
-  <path d="M100 140 Q88 152 82 148" stroke="#8B3A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <path d="M100 140 Q112 152 118 148" stroke="#8B3A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-
-  <!-- 수염 점 -->
-  <circle cx="62" cy="134" r="3" fill="#CC6600" opacity="0.6"/>
-  <circle cx="72" cy="140" r="3" fill="#CC6600" opacity="0.6"/>
-  <circle cx="62" cy="146" r="3" fill="#CC6600" opacity="0.6"/>
-  <circle cx="138" cy="134" r="3" fill="#CC6600" opacity="0.6"/>
-  <circle cx="128" cy="140" r="3" fill="#CC6600" opacity="0.6"/>
-  <circle cx="138" cy="146" r="3" fill="#CC6600" opacity="0.6"/>
-
-  <!-- ===== 탐정 모자 ===== -->
-  <!-- 모자 챙 (브림) -->
-  <ellipse cx="100" cy="72" rx="72" ry="12" fill="#1a1a1a"/>
-  <!-- 모자 몸통 -->
-  <rect x="48" y="10" width="104" height="64" rx="8" fill="#2a2a2a"/>
-  <!-- 모자 밴드 -->
-  <rect x="48" y="62" width="104" height="10" rx="2" fill="#111"/>
-  <!-- 모자 하이라이트 -->
-  <rect x="55" y="15" width="12" height="50" rx="4" fill="#3a3a3a" opacity="0.5"/>
-
-  <!-- ===== 안경 ===== -->
-  <!-- 안경 왼쪽 -->
-  <circle cx="76" cy="112" r="21" fill="none" stroke="#1a1a1a" stroke-width="4"/>
-  <circle cx="76" cy="112" r="21" fill="#4fc3f7" opacity="0.18"/>
-  <!-- 안경 오른쪽 -->
-  <circle cx="124" cy="112" r="21" fill="none" stroke="#1a1a1a" stroke-width="4"/>
-  <circle cx="124" cy="112" r="21" fill="#4fc3f7" opacity="0.18"/>
-  <!-- 안경 코받침 -->
-  <path d="M97 108 Q100 104 103 108" stroke="#1a1a1a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <!-- 안경 왼쪽 다리 -->
-  <line x1="55" y1="106" x2="32" y2="100" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round"/>
-  <!-- 안경 오른쪽 다리 -->
-  <line x1="145" y1="106" x2="168" y2="100" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- 별 모양 (파비콘과 동일 스타일) -->
+  <g transform="translate(100,100)" fill="white" clip-path="url(#circle)">
+    <ellipse cx="0" cy="0" rx="18" ry="56"/>
+    <ellipse cx="0" cy="0" rx="56" ry="18"/>
+    <ellipse cx="0" cy="0" rx="18" ry="56" transform="rotate(45)"/>
+    <ellipse cx="0" cy="0" rx="18" ry="56" transform="rotate(-45)"/>
+  </g>
 </svg>

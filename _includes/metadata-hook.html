@@ -1,2 +1,6 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3092845620424868"
      crossorigin="anonymous"></script>
+
+{% if page.layout == 'category' or page.layout == 'tag' or page.layout == 'categories' or page.layout == 'tags' or page.layout == 'archives' %}
+<meta name="robots" content="noindex, follow">
+{% endif %}
